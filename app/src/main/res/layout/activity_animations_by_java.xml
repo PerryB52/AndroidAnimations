@@ -1,18 +1,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#ff37ff23"
-                tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff37ff23"
+    tools:context=".MainActivity">
 
-   <ImageView
-       android:layout_width="150dp"
-       android:layout_height="150dp"
-       android:id="@+id/volleyball"
-       android:src="@drawable/volleyball"
-       android:layout_alignParentTop="true"
-       android:layout_centerHorizontal="true"
-       android:layout_marginTop="100dp"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/jvolleyball"
+        android:src="@drawable/volleyball"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
             android:text="Rotate"
             android:onClick="rotateAnimation"
             android:layout_weight="25"
-            android:id="@+id/button2"/>
+            android:id="@+id/jbutton2"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -46,20 +46,11 @@
             android:onClick="alphaAnimation"
             android:text="Alpha"
             android:layout_weight="25"
-            android:id="@+id/button"
-           />
+            android:id="@+id/jbutton"
+            />
 
     </LinearLayout>
 
-    <Button
-        android:text="Go To Java"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="21dp"
-        android:onClick="goToJavaActiv"
-        android:id="@+id/button3"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

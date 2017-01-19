@@ -1,5 +1,6 @@
 package com.example.alexandrup.androidanimations;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -69,5 +70,12 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
     public void onAnimationRepeat(Animation animation) {
 
         Toast.makeText(MainActivity.this, "Animation Repeated", Toast.LENGTH_SHORT).show();
+    }
+
+    public void goToJavaActiv(View view) {
+
+        Intent i = new Intent(MainActivity.this, AnimationsByJava.class);
+        startActivity(i);
+
     }
 }
