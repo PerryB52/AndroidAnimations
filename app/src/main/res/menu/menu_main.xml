@@ -5,4 +5,8 @@
         android:id="@+id/mitem_interpolator"
         android:title="Go to interpolator" />
 
+    <item
+        android:id="@+id/mitem_propertyAnimXML"
+        android:title="Go to PropertyAnimXML" />
+
 </menu>

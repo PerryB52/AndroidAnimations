@@ -41,9 +41,16 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
+        Intent i;
+
         switch (item.getItemId()){
             case R.id.mitem_interpolator:
-                Intent i = new Intent(MainActivity.this, InterpolatorAnim.class);
+                i = new Intent(MainActivity.this, InterpolatorAnim.class);
+                startActivity(i);
+                break;
+
+            case R.id.mitem_propertyAnimXML:
+                i = new Intent(MainActivity.this, PropertyAnimationXML.class);
                 startActivity(i);
                 break;
         }
@@ -117,9 +124,4 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         startActivity(i);
     }
 
-
-    public void testTrans(View view){
-        Intent i = new Intent(MainActivity.this, InterpolatorAnim.class);
-        startActivity(i);
-    }
 }
