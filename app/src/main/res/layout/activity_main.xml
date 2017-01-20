@@ -61,5 +61,14 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:text="Go to Frame Anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToFrameAnim"
+        android:id="@+id/button4" />
+
 
 </RelativeLayout>

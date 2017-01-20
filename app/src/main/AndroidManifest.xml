@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AnimationsByJava"></activity>
+        <activity android:name=".AnimationsByJava" />
+        <activity android:name=".FrameAnimation"></activity>
     </application>
 
 </manifest>

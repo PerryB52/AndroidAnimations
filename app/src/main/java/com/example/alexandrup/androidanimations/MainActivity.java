@@ -78,4 +78,11 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         startActivity(i);
 
     }
+
+    public void goToFrameAnim(View view) {
+
+        Intent i = new Intent(MainActivity.this, FrameAnimation.class);
+        startActivity(i);
+
+    }
 }
