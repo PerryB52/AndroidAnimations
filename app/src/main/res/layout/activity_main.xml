@@ -70,5 +70,14 @@
         android:onClick="goToFrameAnim"
         android:id="@+id/button4" />
 
+    <Button
+        android:text="Go to Demerit View Anim"
+        android:onClick="goToDemeritView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>

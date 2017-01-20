@@ -85,4 +85,10 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         startActivity(i);
 
     }
+
+    public void goToDemeritView(View view) {
+
+        Intent i = new Intent(MainActivity.this, DemeritView.class);
+        startActivity(i);
+    }
 }
