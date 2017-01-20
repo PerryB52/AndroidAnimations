@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".AnimationsByJava" />
         <activity android:name=".FrameAnimation" />
-        <activity android:name=".DemeritView"></activity>
+        <activity android:name=".DemeritView" />
+        <activity android:name=".InterpolatorAnim"></activity>
     </application>
 
 </manifest>

@@ -3,6 +3,9 @@ package com.example.alexandrup.androidanimations;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -25,6 +28,28 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         mImageView = (ImageView) findViewById(R.id.volleyball);
     }
 
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()){
+            case R.id.mitem_interpolator:
+                Intent i = new Intent(MainActivity.this, InterpolatorAnim.class);
+                startActivity(i);
+                break;
+        }
+
+        return true;
+    }
 
     public void scaleAnimation(View view) {
 
@@ -89,6 +114,12 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
     public void goToDemeritView(View view) {
 
         Intent i = new Intent(MainActivity.this, DemeritView.class);
+        startActivity(i);
+    }
+
+
+    public void testTrans(View view){
+        Intent i = new Intent(MainActivity.this, InterpolatorAnim.class);
         startActivity(i);
     }
 }
