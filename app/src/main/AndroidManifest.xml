@@ -19,7 +19,8 @@
         <activity android:name=".FrameAnimation" />
         <activity android:name=".DemeritView" />
         <activity android:name=".InterpolatorAnim" />
-        <activity android:name=".PropertyAnimationXML"></activity>
+        <activity android:name=".PropertyAnimationXML" />
+        <activity android:name=".PropertyAnimatorJava"></activity>
     </application>
 
 </manifest>

@@ -53,6 +53,11 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
                 i = new Intent(MainActivity.this, PropertyAnimationXML.class);
                 startActivity(i);
                 break;
+
+            case R.id.mitem_propertyAnimJava:
+                i = new Intent(MainActivity.this, PropertyAnimatorJava.class);
+                startActivity(i);
+                break;
         }
 
         return true;

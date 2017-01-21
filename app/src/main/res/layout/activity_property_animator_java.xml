@@ -7,7 +7,7 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:id="@+id/image"
+        android:id="@+id/jvvimage"
         android:src="@drawable/tiling"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"

@@ -9,4 +9,8 @@
         android:id="@+id/mitem_propertyAnimXML"
         android:title="Go to PropertyAnimXML" />
 
+    <item
+        android:id="@+id/mitem_propertyAnimJava"
+        android:title="Go to PropertyAnimJava" />
+
 </menu>
